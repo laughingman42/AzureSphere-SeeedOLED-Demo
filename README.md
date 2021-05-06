@@ -6,6 +6,7 @@ This project provides the base template to drive a [Seeed OLED Display](https://
 ## Installation
 * Hardware
 	* Once you have assembled the Mini Dev Board with the Grove Breakout, connect the OLED to one of the I2C breakouts. Note that since this is a mini-dev board, it is limited to one I2C interface via ISU1. Connecting the OLED to the I2C breakout on either side should yield the same result.
+![connection image](media/SeeedOLEDConnected.jpg)
 
 * Software
 	* Follow instructions provided in the [prerequisites section for Build a high-level application](https://docs.microsoft.com/en-us/azure-sphere/install/qs-blink-application?tabs=windows%2Ccliv2beta&pivots=visual-studio#prerequisites) to ensure your Mini Dev Board is ready for development. 
