@@ -5,7 +5,8 @@
   "EntryPoint": "/bin/app",
   "CmdArgs": [],
   "Capabilities": {
-    "AllowedApplicationConnections": []
+    "AllowedApplicationConnections": [],
+    "I2cMaster": [ "$SEEED_MT3620_MDB_J1_ISU0_I2C", "$SEEED_MT3620_MDB_J1J2_ISU1_I2C" ]
   },
   "ApplicationType": "Default"
 }
